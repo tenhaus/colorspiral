@@ -25,13 +25,6 @@ $(document).ready(function() {
     .css('display', 'inline-block')
     .appendTo('.content');
 
-    // console.log(lastColor);
-    // var box = jQuery('</div>');
-    // box.css('margin-top', 20);
-    // box.css('width', size);
-    // box.css('height', size);
-    // box.css('background-color', lastColor);
-
     var halfColor = Math.ceil(decimal/2);
     lastColor = '#' + pad(halfColor.toString(16), 6);
 
